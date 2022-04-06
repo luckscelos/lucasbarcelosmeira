@@ -1,0 +1,145 @@
+.pagina{
+    background-color: black;
+    width: 1280px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px;
+    border-radius: 12px; 
+}
+
+.logo{
+    display: flex;
+    justify-content:center ;
+    margin-top: 42px;
+    align-items: center;
+}
+
+.how{
+    color: white;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    text-decoration: none;
+    width: 160px;
+    height: 190px;
+    border-radius: 8px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    width: 743px;
+    height: 234px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 90px;
+    margin-right: 50px;
+}
+
+p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-align: center;
+    justify-content: center;
+}
+.zoom p:hover{
+    color: #fff;
+}
+
+.zoom{
+    width: 160px;
+    height: 160px; 
+    border-radius: 8px;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    color:rgba(156, 156, 156, 1);
+    font-size: 14px;
+    margin: 26px;
+    margin-bottom: 290px;
+    text-align: right;
+    justify-content: center;
+}
+img{
+    border: 1px;
+    border-radius: 8px;
+    
+}
+
+figcaption{
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border: 1px;
+    border-radius: 8px;
+}
+
+figcaption:hover{
+    border: solid #fff 2px;
+    color: #fff;
+}
+
+.dif:hover{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+
+.imag:hover{
+    transform: scale(1.8);
+    transition: transform 5s;
+  
+}
+
+.button{
+    color: #fff;;
+    width: 206px;
+    height: 50px;
+    margin-bottom: 26px;
+    border: 1.5px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 88px;
+    text-decoration: none;
+    background-color: black;
+    justify-content: center;
+    align-items: center;      
+}
+.button:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.imagem{
+    width: 160px;
+    height: 160px; 
+    border-radius: 8px;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    color:rgba(156, 156, 156, 1);
+    font-size: 14px;
+    margin: 26px;
+    margin-bottom: 290px;
+    text-align: right;
+    justify-content: center;
+}
